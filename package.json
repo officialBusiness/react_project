@@ -19,6 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://officialbusiness.github.io/react_project/build/",
   "eslintConfig": {
     "extends": [
       "react-app",

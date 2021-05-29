@@ -4,7 +4,7 @@
 &emsp;先简单说一下tween动画的核心原理，本质上就是数据的操作。比如说，在0到1s内，我想要一个高度为0物体向下移动100像素，那么只要在0到1s之内的时间，让这个物体的高度时刻为 ( 当前经过的时间 - 0 )/ 1s * 100px 即可
 
 ## 使用
-&emsp;[演示案例，直接在浏览器打开的html文件](https://github.com/officialBusiness/react_project/blob/main/src/resume/tween/tween_demo.html)\
+&emsp;[演示案例，直接在浏览器打开的html文件](https://officialbusiness.github.io/react_project/resume/tween/tween_demo.html)\
 &emsp;首先创建一个始终执行的动画函数，在其中调用函数TWEEN.update
 
 	function animate(time) {

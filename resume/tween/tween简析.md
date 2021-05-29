@@ -42,11 +42,11 @@
 &emsp;tween的组成主要有Easing、now、Group、Tween这四个变量
 ### Easing
 &emsp;行数: 4-186\
-&emsp;对象，表示动画运动的速度曲线，为[tween](https://github.com/officialBusiness/react_project/blob/main/src/resume/tween/tween%E7%AE%80%E6%9E%90.md#tween)服务，[相关链接](http://tweenjs.github.io/tween.js/examples/03_graphs.html)
+&emsp;对象，表示动画运动的速度曲线，为[tween](https://github.com/officialBusiness/react_project/blob/main/resume/tween/tween%E7%AE%80%E6%9E%90.md#tween)服务，[相关链接](http://tweenjs.github.io/tween.js/examples/03_graphs.html)
 
 ### now,now$1
 &emsp;行数: 188-218\
-&emsp;函数，表示获取当前时间的函数。一开始没有赋值，根据不同的环境赋值不同的函数，获取当前时间。为[tween](https://github.com/officialBusiness/react_project/blob/main/src/resume/tween/tween%E7%AE%80%E6%9E%90.md#tween)服务
+&emsp;函数，表示获取当前时间的函数。一开始没有赋值，根据不同的环境赋值不同的函数，获取当前时间。为[tween](https://github.com/officialBusiness/react_project/blob/main/resume/tween/tween%E7%AE%80%E6%9E%90.md#tween)服务
 
 ### Group
 &emsp;行数: 226-273\

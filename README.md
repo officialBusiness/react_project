@@ -1,5 +1,5 @@
 # 简介
-&emsp;项目入口: https://officialbusiness.github.io/react_project/
+&emsp;项目入口: https://officialbusiness.github.io/react_project/build/index.html
 
 &emsp;项目规范: http://alloyteam.github.io/CodeGuide/
 

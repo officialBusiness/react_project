@@ -1,12 +1,12 @@
 import React from 'react';
-import { createEditor } from '@textbus/textbus';
+import { createEditor } from './create';
 import '@textbus/textbus/bundles/textbus.min.css';
 
 export default class TextbusStart extends React.Component{
 	componentDidMount(){
-		console.log('createEditor:', createEditor)
+		// console.log('createEditor:', createEditor)
 		const editor = createEditor(this.container, {
-		  theme: 'dark',// 可选 'dark' | 'mac-os' | 'mac-os-dark'，不传即为默认样式
+		  // theme: 'dark',// 可选 'dark' | 'mac-os' | 'mac-os-dark'，不传即为默认样式
 		  // uploader(uploadType, prevValue) {
 		  //   switch (uploadType) {
 		  //     case 'video':
@@ -29,7 +29,8 @@ export default class TextbusStart extends React.Component{
 		// editor.onChange.subscribe(() => {
 		//   console.log(editor.getContents())
 		// })
-		editor.readonly = true
+		editor.readonly = false
+		// console.log('editor:', editor)
 	}
 	render(){
 		return (

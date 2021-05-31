@@ -5,7 +5,7 @@ export default class D3Start extends React.Component{
 	componentDidMount(){
 		// this.container 
 		// console.log('this.container:', this.container)
-		var svg = d3.select(this.container)     //选择文档中的body元素
+		var svg = d3.select(this.container)//选择文档中的body元素
 			.append("svg")          							//添加一个svg元素
 			.attr("width", '100%')       					//设定宽度
 			.attr("height", '100%');    					//设定高度

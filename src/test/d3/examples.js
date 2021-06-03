@@ -1,5 +1,7 @@
-import temporalForceDirectedGraph from './temporal_force_directed_graph.js'
+import circle from './circle.js'
+import stickyForceLayout from './sticky_force_layout.js'
 
-export default {
-	temporalForceDirectedGraph
+export {
+	circle,
+	stickyForceLayout,
 }

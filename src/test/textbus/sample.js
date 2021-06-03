@@ -153,8 +153,8 @@ export var defaultOptions = {
     ]
 };
 BlockComponent.cleanedFormatters.push(linkFormatter);
-export function createEditor(selector, options) {
-    console.log('createEditor')
+export default function createEditor(selector, options) {
+    // console.log('createEditor')
     if (options === void 0) { options = {}; }
     return new Editor(selector, __assign(__assign({}, defaultOptions), options));
 }

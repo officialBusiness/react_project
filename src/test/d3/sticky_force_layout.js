@@ -1,5 +1,4 @@
 import * as d3 from "d3";
-import './sticky_force_layout.less'
 
 export default function stickyForceLayout( container ){
 	var graph = ({
@@ -93,6 +92,4 @@ export default function stickyForceLayout( container ){
 	function clamp(x, lo, hi) {
 		return x < lo ? lo : x > hi ? hi : x;
 	}
-	svg.node()
-
 }

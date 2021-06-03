@@ -4,7 +4,7 @@ import * as examples from './examples'
 export default class D3Start extends React.Component{
 	componentDidMount(){
 
-		examples.circle( this.container )
+		examples.stickyForceLayout( this.container )
 
 	}
 	render(){

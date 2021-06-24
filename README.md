@@ -16,6 +16,6 @@
 
 ## 添加的依赖
 * d3: 用于实现数据可视化的js库，[官网链接](https://d3js.org/)
-* textbus: 开源富文本框,一边学习一边应用,为以后自己实现的想要的富文本框做基础，[官网链接](https://textbus.tanboui.com/
-* three: 基于webgl的三维工具框架
+* textbus: 开源富文本框,一边学习一边应用,为以后自己实现的想要的富文本框做基础，[官网链接](https://textbus.tanboui.com/)
+* three: 基于webgl的三维工具框架，[官网链接](https://threejs.org/)
   

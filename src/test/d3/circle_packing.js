@@ -451,7 +451,6 @@ export default function circlePacking( container ){
 	node.append("title")
 		.text(d => `${d.ancestors().map(d => d.data.name).reverse().join("/")}\n${format(d.value)}`);
 
-
 	function pack(data){
 		return d3.pack()
 			.size([width - 2, height - 2])

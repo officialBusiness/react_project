@@ -1,5 +1,5 @@
 import React from 'react';
-import * as examples from './examples';
+import * as examples from './textbus_examples.js';
 import '@textbus/textbus/bundles/textbus.min.css';
 
 export default class TextbusStart extends React.Component{

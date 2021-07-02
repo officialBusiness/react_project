@@ -1,8 +1,8 @@
 import React from 'react';
-import * as examples from './d3_examples.js'
-import './d3_start.less'
+// import * as examples from './ant_design_examples'
+import './ant_design_start.less'
 
-export default class D3Start extends React.Component{
+export default class AntDesignStart extends React.Component{
 	componentDidMount(){
 		// examples.circlePacking( this.container )
 

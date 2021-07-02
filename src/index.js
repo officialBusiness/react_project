@@ -4,12 +4,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import D3Start from './test/d3/d3_start.js';
+// import AntDesignStart from './test/ant_design/ant_design_start.js';
 // import TextbusStart from './test/textbus/start.js'
 // import KnowledgeManagement from './my_tools/knowledge_management/knowledge_management.js'
 
 ReactDOM.render(
+	// <AntDesignStart />
 	<D3Start />,
-  document.getElementById('root')
+	document.getElementById('root')
 );
 
 

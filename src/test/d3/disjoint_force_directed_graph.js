@@ -59,7 +59,9 @@ export default function disjoint_force_directed_graph( container ){
 			.attr("cy", d => d.y);
 	});
 	function color(d){	
-		return d3.scaleOrdinal(d3.schemeCategory10)(d.group)
+		const scale = d3.scaleOrdinal(d3.schemeCategory10);
+		return (d => scale(d.group))(d);
+		// return d3.scaleOrdinal(d3.schemeCategory10)(d.group)
 	}
 	function drag(simulation) {
 		function dragstarted(event, d) {

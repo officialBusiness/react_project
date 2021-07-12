@@ -4,7 +4,7 @@ import './d3_start.less'
 
 export default class D3Start extends React.Component{
 	componentDidMount(){
-		examples.disjointForceDirectedGraph( this.container )
+		examples.circle( this.container )
 	}
 	render(){
 		return (

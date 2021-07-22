@@ -9,3 +9,4 @@ src
 		textbus: 用于研究富文本框textbus
 		ant_design: 用于研究ant-design
 	utils: 工具性代码
+transit: 用于将文件通过git传递到别的电脑上

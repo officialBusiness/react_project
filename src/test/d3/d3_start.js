@@ -4,7 +4,7 @@ import './d3_start.less'
 
 export default class D3Start extends React.Component{
 	componentDidMount(){
-		examples.circle( this.container )
+		examples.learnBarCharts( this.container )
 	}
 	render(){
 		return (

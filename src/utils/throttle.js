@@ -17,7 +17,7 @@
 	var later = function() {
 		// 如果设置了 leading，就将 previous 设为 0
 		// 用于下面函数的第一个 if 判断
-		previous = options.leading === false ? 0 : _.now();
+		previous = options.leading === false ? 0 : new Date().getTime();
 		// 置空一是为了防止内存泄漏，二是为了下面的定时器判断
 		timeout = null;
 		result = func.apply(context, args);
@@ -25,7 +25,7 @@
 	};
 	return function() {
 		// 获得当前时间戳
-		var now = _.now();
+		var now = new Date().getTime();
 		// 首次进入前者肯定为 true
 		// 如果需要第一次不执行函数
 		// 就将上次时间戳设为当前的

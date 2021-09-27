@@ -11,19 +11,19 @@ export default function debounce(func, wait, immediate = false) {
  
 	var later = function() {
 		// 现在和上一次时间戳比较
-		var last = _.now() - timestamp;
+		var last = new Date().getTime() - timestamp;
 		// 如果当前间隔时间少于设定时间且大于0就重新设置定时器
 		if (last < wait && last >= 0) {
-		timeout = setTimeout(later, wait - last);
+			timeout = setTimeout(later, wait - last);
 		} else {
 		// 否则的话就是时间到了执行回调函数
-		timeout = null;
-		if (!immediate) {
-			result = func.apply(context, args);
-			if (!timeout) {
-			context = args = null;
+			timeout = null;
+			if (!immediate) {
+				result = func.apply(context, args);
+				if (!timeout) {
+					context = args = null;
+				}
 			}
-		}
 		}
 	};
  
@@ -31,7 +31,7 @@ export default function debounce(func, wait, immediate = false) {
 		context = this;
 		args = arguments;
 		// 获得时间戳
-		timestamp = _.now();
+		timestamp = new Date().getTime();
 		// 如果定时器不存在且立即执行函数
 		var callNow = immediate && !timeout;
 		// 如果定时器不存在就创建一个

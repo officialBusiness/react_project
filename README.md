@@ -1,7 +1,7 @@
 # 简介
-&emsp;项目入口: https://officialbusiness.github.io/react_project/build/index.html
+&emsp;项目入口: https://officialbusiness.github.io/react_project/build/index.html(https://officialbusiness.github.io/react_project/build/index.html)
 
-&emsp;项目规范: http://alloyteam.github.io/CodeGuide/
+&emsp;项目规范: http://alloyteam.github.io/CodeGuide/(http://alloyteam.github.io/CodeGuide/)
 
 &emsp;使用react脚手架 create-react-app@4.0.3 创建
 

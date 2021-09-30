@@ -24,7 +24,10 @@ export default function learnBarCharts( container ){
 	draw( data );
 	function draw( data ){
 		let 
-			[ max ] = d3.extent( data ),
+			[ 
+				// min,
+				max
+			] = d3.extent( data ),
 			dx = width / 2 - data.length / 2 * rectStep,
 			dy = height / 2,
 			updateRect = svg.selectAll( 'rect' ).data( data ),

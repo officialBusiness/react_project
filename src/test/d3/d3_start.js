@@ -4,7 +4,7 @@ import './d3_start.less'
 
 export default class D3Start extends React.Component{
 	componentDidMount(){
-		examples.learnBarCharts( this.container )
+		examples.mobilePatentSuits( this.container )
 	}
 	render(){
 		return (
